@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <script src="jquery.js"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Library</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="header">
+            <p>Library</p>
+        </div>
+        <div class="alert alert-success hidden" role="alert">
+            Your book has been added successfully!
+        </div>
+
+
+        <div class="library">
+            <div class="top">
+                <button class="btn btn-primary dropdown-toggle" type="button" id="bookform" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Add a book
+                </button>
+                <form class="dropdown-menu addform" aria-labelledby="bookform">
+                    <div class="form-row">
+                        <div class="col">
+                            <input type="text" class="form-control title" placeholder="Title">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-9">
+                            <input type="text" class="form-control author" placeholder="Author">
+                        </div>
+                        <div class="form-group col-md-3">
+                            <input type="text" class="form-control pages" placeholder="Pages">
+                        </div>
+                    </div>
+                    <div class="form-group checkbox">
+                        <div class="form-check">
+                            <input class="form-check-input checkread" type="checkbox" id="gridCheck">
+                            <label class="form-check-label" for="gridCheck">
+                                Read
+                            </label>
+                        </div>
+                    </div>
+                    <button type="button" class="btn btn-primary addbook">Add Book</button>
+                </form>
+            </div>
+        </div>
+        
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+        <script src="script.js" async defer></script>
+    </body>
+</html>
